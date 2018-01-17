@@ -4,6 +4,17 @@ class WelcomeController < ApplicationController
     duplicate_code_1(4)
     duplicate_code_2(3)
     bad_code
+    should_be_a_private_method(123)
+  end
+
+  def fake
+  end
+
+  def nothing_here
+  end
+
+  def should_be_a_private_method(number)
+    number * 123
   end
 
   private
@@ -30,6 +41,9 @@ class WelcomeController < ApplicationController
 
   def unused_code
     "hey hey hey"
+  end
+
+  def nothing_here2
   end
 
   def big_function
