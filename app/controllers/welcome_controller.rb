@@ -46,6 +46,18 @@ class WelcomeController < ApplicationController
   def nothing_here2
   end
 
+  def same1
+    array = Array.new
+    array << 1
+    array.size
+  end
+
+  def same2
+    array = Array.new
+    array << 1
+    array.size
+  end
+
   def big_function
     lol = 5
     lol = 7
