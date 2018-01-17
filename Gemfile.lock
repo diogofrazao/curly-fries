@@ -146,6 +146,8 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (>= 1.1, < 3)
+    scrutinizer-ocular (1.0.1)
+      simplecov (>= 0.7)
     sdoc (0.4.2)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
@@ -194,7 +196,9 @@ DEPENDENCIES
   rails (= 4.2.8)
   rspec-rails (~> 3.7)
   sass-rails (~> 5.0)
+  scrutinizer-ocular
   sdoc (~> 0.4.0)
+  simplecov
   spring
   sqlite3
   turbolinks
