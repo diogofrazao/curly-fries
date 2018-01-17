@@ -13,4 +13,10 @@ class Ketchup
   def more_and_more
     @quantity = @quantity * 50
   end
+
+  private
+
+  def unused_code
+    "hey hey hey"
+  end
 end
